@@ -7,8 +7,14 @@ public class health : MonoBehaviour
 {
 
     public int Hp;
-    public AudioClip hurt;
+    public int water;
+    public int growth;
+
     protected Slider lifeBar;
+    protected Slider waterBar;
+    protected Slider growthBar;
+
+    public AudioClip hurt;
     protected Text lifeText;
     protected Text damageMessage;
     
